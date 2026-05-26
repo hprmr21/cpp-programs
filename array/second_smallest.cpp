@@ -6,7 +6,7 @@ void secondSmallest(int arr[],int n){
     int smallest=arr[0];
     int ssmallest=INT_MAX;
 
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n;i++){//optimal way
         if(arr[i]<smallest){
             ssmallest=smallest;
             smallest=arr[i];
